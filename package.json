@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "prettier": "3.0.2"
+  },
+  "name": "projet-3-ohmyfood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./src/sass/main.scss:./src/css/sass.css"
+  },
+  "author": "Tom ANDRE",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,42 @@
+//Variables
+
+$color-primary: #9356dc;
+$color-secondary: #ff79da;
+$color-tertiary: #99e2d0;
+$color-tertiary-on: #008766;
+
+$color-button-gradient: linear-gradient(
+  180deg,
+  $color-secondary 0%,
+  $color-primary 100%
+);
+
+$font-title: 'Shrikhand', sans-serif;
+$font-body: 'Roboto', sans-serif;
+
+$font-size-title: 1.875rem; //30px
+$font-size-body: 1.5rem;
+
+/* Tableau de coresspondance "rem" -> "px"
+    Pour 100% :
+    0.25rem; //4px
+    0.5rem; //8px
+    0.75rem; //12px
+    0.875; //14px
+    1rem; //16px
+    1.0625rem //17px
+    1.125rem //18px
+    1.25rem; //20px
+    1.375rem //22px
+    1.5rem; //24px
+    2rem; //32px
+    3rem; //48px
+    4rem; //64px
+    5rem; //80px
+    */
+
+$global-size: 75%;
+$breakpoints: (
+  tablet: 767.98px,
+  desktop: 1439.98px,
+);

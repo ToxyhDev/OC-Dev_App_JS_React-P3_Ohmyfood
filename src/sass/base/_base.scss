@@ -1,0 +1,23 @@
+html {
+  font-size: $global-size;
+  @include tablet-only {
+    font-size: 100%;
+  }
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
