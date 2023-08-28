@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: $shadow-badge;
+    position: relative;
+  }
+  &__title {
+    margin: 0.875rem 0;
+    padding: 0 1.19rem 0 1rem;
+  }
+}
+
+.location {
+  height: 3.125rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.0625rem;
+  background-color: $color-surface-dim2;
+
+  &__text {
+    font-weight: 500;
+  }
+}

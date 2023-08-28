@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
 
 .typo-main-title {
-  color: black;
+  color: $color-font;
   font-family: $font-title;
-  font-size: 1.875rem;
+  font-size: $fontSize-main-title;
   font-weight: 400;
+}
+
+.homepage__title {
+  font-size: $fontSize-section-title;
+  font-weight: 700;
 }

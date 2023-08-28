@@ -1,0 +1,13 @@
+.button-primary {
+  background: $color-button-gradient;
+  padding: 0.81rem 1.17rem;
+  border-radius: 1.5625rem;
+  color: white;
+  font-size: $fontSize-button;
+  font-weight: 500;
+  box-shadow: $shadow-button;
+  transition: filter 0.3s ease-in-out;
+  &:hover {
+    filter: opacity(85%);
+  }
+}
