@@ -21,8 +21,15 @@
       gap: 0.69rem;
     }
 
+    &--icon-size {
+      width: 1.25rem;
+      display: flex;
+      align-items: center;
+    }
+
     &--color {
       color: white;
+      font-weight: 500;
     }
   }
 }

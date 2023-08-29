@@ -1,8 +1,14 @@
 * {
+  scroll-behavior: smooth;
   font-size: $global-size;
   @include tablet-only {
     font-size: 100%;
   }
+}
+
+*:active,
+*:focus {
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {

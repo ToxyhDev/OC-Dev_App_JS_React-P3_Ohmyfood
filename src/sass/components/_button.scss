@@ -6,8 +6,8 @@
   font-size: $fontSize-button;
   font-weight: 500;
   box-shadow: $shadow-button;
-  transition: filter 0.3s ease-in-out;
+  transition: filter 0.5s ease-in-out;
   &:hover {
-    filter: opacity(85%);
+    filter: opacity(80%);
   }
 }

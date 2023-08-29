@@ -180,10 +180,25 @@
   &__label {
     cursor: pointer;
   }
+  &__icon {
+    font-size: 1.25rem;
+    color: black;
+    &--check {
+      font-size: 1.25rem;
+      &::before {
+        display: none;
+      }
+    }
+  }
+
   &__checkbox {
     display: none;
-    &:checked + .toggle-heart__icon {
-      background: -webkit-linear-gradient(
+    &:checked ~ .toggle-heart__icon {
+      display: none;
+    }
+    &:checked ~ .toggle-heart__icon--check::before {
+      display: block;
+      background-image: -webkit-linear-gradient(
         175deg,
         $color-secondary 0%,
         $color-primary 100%
@@ -191,11 +206,7 @@
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      animation: 0.6s ease-out heart-beat;
     }
-  }
-  &__icon {
-    font-size: 1.25rem;
-    color: grey;
-    transition: color 0.3s ease-in-out;
   }
 }
