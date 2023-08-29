@@ -63,11 +63,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      //   content: '1';
+
       width: 1.5rem;
       height: 1.5rem;
       border-radius: 1rem;
+
       color: white;
+      font-size: 0.88638rem;
+      font-weight: 500;
+
       left: -0.8rem;
       transform-origin: center;
       background-color: $color-primary;
@@ -86,9 +90,11 @@
 
   &__icon {
     color: $color-icon;
+    font-size: 1.125rem;
 
     &--primary {
       color: $color-primary;
+      font-size: 1.125rem;
     }
   }
 

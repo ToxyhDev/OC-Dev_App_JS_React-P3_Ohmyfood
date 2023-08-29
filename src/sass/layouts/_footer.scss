@@ -23,6 +23,7 @@
 
     &--icon-size {
       width: 1.25rem;
+      font-size: 1rem;
       display: flex;
       align-items: center;
     }
@@ -30,6 +31,7 @@
     &--color {
       color: white;
       font-weight: 500;
+      font-size: $fontSize-button;
     }
   }
 }
