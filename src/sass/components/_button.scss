@@ -1,13 +1,21 @@
 .button-primary {
+  width: fit-content;
   background: $color-button-gradient;
-  padding: 0.81rem 1.17rem;
   border-radius: 1.5625rem;
   color: white;
   font-size: $fontSize-button;
   font-weight: 500;
   box-shadow: $shadow-button;
   transition: filter 0.5s ease-in-out;
+  margin: auto;
   &:hover {
     filter: opacity(80%);
+  }
+
+  &--p-md {
+    padding: 0.81rem 1.17rem;
+  }
+  &--p-lg {
+    padding: 1rem 3rem;
   }
 }

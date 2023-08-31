@@ -8,12 +8,25 @@
     height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     box-shadow: $shadow-badge;
     position: relative;
   }
   &__title {
-    margin: 0.875rem 0;
-    padding: 0 1.19rem 0 1rem;
+    margin: 0.875rem auto;
+  }
+  &__iconLink {
+    margin: 0rem 1.06rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__iconBack {
+    font-size: 1.88rem;
+    display: flex;
+    align-items: center;
   }
 }
 
