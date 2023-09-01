@@ -55,12 +55,10 @@
   }
 
   &__title {
-    // display: flex;
     width: min-content;
     height: 1.5rem;
     font-size: 1rem;
     font-weight: 300;
-    // border-bottom: 1px solid $color-tertiary;
     position: relative;
 
     &::before {
@@ -105,10 +103,11 @@
   }
 
   &__card {
+    //Ne pas insérer de gap car pousse le conteneur
+    //en dehors de son parent
     padding: 0.9375rem;
     display: flex;
     justify-content: space-between;
-    // gap: 1.5rem;
     box-sizing: border-box;
     width: 100%;
   }
@@ -127,10 +126,6 @@
       @extend %check-plate-animation;
       color: white;
       width: 3.6875rem;
-      // width: 15%;
-      // @include tablet-only {
-      //   width: 10%;
-      // }
     }
   }
 
