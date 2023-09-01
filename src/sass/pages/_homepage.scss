@@ -150,11 +150,9 @@
   }
 }
 
-.restaurants-container {
-  @include desktop-only {
-    flex: 1 0 30%;
-  }
-}
+// .restaurants-container {
+
+// }
 
 .restaurants-card {
   position: relative;
@@ -163,6 +161,9 @@
   background-color: white;
   border-radius: 0.9375rem;
   overflow: hidden;
+  @include desktop-only {
+    flex: 1 0 30%;
+  }
 
   &__label {
     position: absolute;
@@ -209,6 +210,12 @@
       font-weight: 300;
     }
   }
+  &__like {
+    position: absolute;
+    bottom: 2.06rem;
+    right: 1.56rem;
+    display: flex;
+  }
 
   &__button {
     width: 1.375rem;
@@ -238,6 +245,7 @@
     }
     &:checked ~ .toggle-heart__icon--check::before {
       display: block;
+
       background-image: -webkit-linear-gradient(
         175deg,
         $color-secondary 0%,
