@@ -1,6 +1,8 @@
 * {
   scroll-behavior: smooth;
   font-size: $global-size;
+  box-sizing: border-box;
+
   @include tablet-only {
     font-size: 100%;
   }
