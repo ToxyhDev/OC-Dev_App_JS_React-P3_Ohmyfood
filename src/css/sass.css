@@ -390,6 +390,13 @@ button {
   align-items: center;
   padding-right: 1.5rem;
 }
+@media (min-width: 1223.98px) {
+  .menu-header {
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+  }
+}
 .menu-header__title {
   font-size: 1.75rem;
   font-family: "Shrikhand", sans-serif;
