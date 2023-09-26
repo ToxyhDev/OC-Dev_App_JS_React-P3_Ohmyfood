@@ -734,6 +734,7 @@ button {
 .toggle-heart__icon {
   font-size: 1.25rem;
   color: black;
+  animation: 0.6s ease-out heart-beat;
 }
 .toggle-heart__icon--check {
   font-size: 1.25rem;
