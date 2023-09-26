@@ -104,16 +104,15 @@
     &:nth-child(3)::before {
       content: '3';
     }
+
+    &:hover .instruction__icon {
+      color: $color-primary;
+    }
   }
 
   &__icon {
     color: $color-icon;
     font-size: 1.125rem;
-
-    &--primary {
-      color: $color-primary;
-      font-size: 1.125rem;
-    }
   }
 
   &__p {

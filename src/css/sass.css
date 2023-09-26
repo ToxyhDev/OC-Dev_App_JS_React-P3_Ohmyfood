@@ -245,12 +245,11 @@ button {
 .instruction__card:nth-child(3)::before {
   content: "3";
 }
+.instruction__card:hover .instruction__icon {
+  color: #9356dc;
+}
 .instruction__icon {
   color: #7e7e7e;
-  font-size: 1.125rem;
-}
-.instruction__icon--primary {
-  color: #9356dc;
   font-size: 1.125rem;
 }
 .instruction__p {
