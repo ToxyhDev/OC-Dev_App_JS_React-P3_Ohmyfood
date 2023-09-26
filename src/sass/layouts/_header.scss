@@ -39,12 +39,20 @@
   gap: 1.0625rem;
   background-color: $color-surface-dim2;
 
-  &__text {
+  &__input {
+    width: 7rem;
+    color: $color-surface-dim;
+    font-family: $font-body;
     font-weight: 500;
     font-size: 1rem;
+    border: none;
+    padding: 0;
+    background-color: transparent;
   }
   &__icon {
     &--size {
+      color: $color-surface-dim;
+      cursor: pointer;
       font-size: 1rem;
     }
   }

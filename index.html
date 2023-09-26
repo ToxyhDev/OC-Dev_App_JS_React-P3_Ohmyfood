@@ -27,12 +27,18 @@
           </h1>
         </nav>
         <!-- Location -->
-        <div class="location">
-          <div class="location__icon">
+        <form action="#" class="location">
+          <label for="chooseLocalisation" class="location__icon">
+            <span class="sr-only">Choisir sa localisation</span>
             <i class="fa-solid fa-location-dot location__icon--size"></i>
-          </div>
-          <p class="location__text">Paris, Belleville</p>
-        </div>
+          </label>
+          <input
+            id="chooseLocalisation"
+            class="location__input"
+            type="text"
+            value="Paris, Belleville"
+          />
+        </form>
       </header>
 
       <!-- Main Section -->
