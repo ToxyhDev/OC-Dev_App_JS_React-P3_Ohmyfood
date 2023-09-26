@@ -10,6 +10,7 @@
   }
 }
 
+// ---- Faire dispraitre le loader
 @keyframes hide-loader {
   80% {
     opacity: 1;
@@ -22,6 +23,7 @@
   }
 }
 
+// ---- Animation du loader
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -31,6 +33,7 @@
   }
 }
 
+// ---- Animation des cards plates
 @keyframes swipe-left {
   0% {
     transform: translateX(100px);
