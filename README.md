@@ -1,17 +1,5 @@
 # Projet 3 - Dynamisez une page web avec des animations CSS
 
-- **ANNEXE - Ressources projets**
-
-  🔗 [Lien dossier projet google drive](https://drive.google.com/drive/folders/1iEnE9L4YCTxl5JXHhrj1Q9R8RIcqZc-F?usp=drive_link)
-
-  🖌️ [Maquette Figma](<https://www.figma.com/file/ZuQApbbsI4OBRGc1aesRcF/Maquettes-Ohmyfood-(mobile-et-desktop)-(Copy)?type=design&mode=design&t=oWcduZquHYSTQyuN-0>)
-
-  📄 [Brief creatif](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P4+Animations+CSS+Ohmyfood/Brief+cr%C3%A9atif+site+Ohmyfood.pdf)
-
-  💻 [Github](https://github.com/ToxyhDev/OC-Dev_App_JS_React-P3_Ohmyfood)
-
----
-
 ## ⏳ Timing
 
 **Date début :** 27/08/23 16:00
@@ -33,8 +21,6 @@
 
 ## 📑 Etapes :
 
-➡️ [Guide étape](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P4+Animations+CSS+Ohmyfood/Guide+d%E2%80%99e%CC%81tapes+cle%CC%81s+%E2%80%93+Ame%CC%81liorez+l'interface+d'un+site+mobile+avec+des+animations+CSS.pdf)
-
 - [x] **Étape n° 1 : Mettez en place votre environnement de développement**
 - [x] **Étape n°2 : Intégrez la version mobile de la page d’accueil**
 - [x] **Étape n° 3 : Ajoutez les animations à la page d’accueil**
@@ -55,7 +41,7 @@
 
 ### Point négatif 👎
 
-- Tout a été fait comme il peut être pas optimisé en manière d’accesibilité, à cause des checkbox pour une gestion en css car le JS était interdit.
+- Tout a été fait comme il faut mais peut être optimisé en manière d’accesibilité, à cause des checkbox pour une gestion en css car le JS était interdit.
 
 ### Point positif 👍
 
